@@ -1,0 +1,75 @@
+body{
+    font-family: 'Hubballi', sans-serif;
+    background-color: rgb(170, 245, 245);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: rgb(250, 250, 250);
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    box-sizing: border-box;
+
+    padding-top: .1rem;
+    padding-bottom: 1rem;
+
+    border-bottom: 1px solid black;
+
+    position: relative;
+    
+}
+
+.cabecalho_link, a:link {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+	font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover {
+	color: magenta;
+	text-decoration: underline;
+}
+
+.titulo_principal {
+    font-size: 2rem;
+    padding: 1rem .5rem .5rem .5rem;
+    font-weight: bold;
+}
+
+.titulo_secundario {
+    padding:.5rem .5rem .5rem .5rem;
+    font-size: 1.5rem;
+}
+
+main section h1{
+    text-decoration: underline;
+}
+
+.minha_foto {
+    border: 3px solid purple;
+    padding: 1rem 1rem;
+    width: 15rem;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.informacoes {
+    font-size: 1.5rem;
+    display: inline-block;
+    height: 100% center;
+    padding: 1rem 0 0 1rem;
+}
+
